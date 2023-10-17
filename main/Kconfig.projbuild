@@ -1,0 +1,26 @@
+menu "Example Configuartion"
+    
+    config RELAY_OUTPUT
+        int "BRELAY"
+        default 2
+        help 
+            set the GPIO pin for pin #1
+            
+    config SWITCH_GPIO_INPUT
+        int "SWITCH"
+        default 14
+        help 
+            set the GPIO pin for pin #2
+
+    config MOTION_SENSOR_INPUT
+        int "MOTION SENSOR"
+        default 18
+        help 
+            set the GPIO pin for pin #5
+
+    config LIGHT_SENSOR_INPUT
+        int "LIGHT SENSOR"
+        default 19
+        help 
+           set the GPIO pin for pin #6
+endmenu
